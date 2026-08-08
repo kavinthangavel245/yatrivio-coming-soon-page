@@ -55,14 +55,14 @@ export default function Hero() {
   className="
     absolute
     right-5
-    top-7
+    top-11
     z-30
     hidden
     items-center
     gap-4
     sm:flex
     lg:right-20
-    lg:top-8
+    lg:top-12
   "
 >
   {/* Phone */}
@@ -93,7 +93,7 @@ export default function Hero() {
 
   {/* Email */}
   <a
-    href="mailto:info.yatrivio@gmail.com"
+    href="mailto:yatrivio@gmail.com"
     className="
       flex
       items-center
@@ -112,79 +112,87 @@ export default function Hero() {
       size={13}
       className="text-[#d6ff14]"
     />
-    <span>info.yatrivio@gmail.com</span>
+    <span>yatrivio@gmail.com</span>
   </a>
 </div>
         {/* Logo */}
-        <div className="flex justify-center lg:justify-start pt-8">
-          <img
-            src={logo}
-            alt="Yatrivio"
-            className="
-w-38
-sm:w-32
-md:w-40
-lg:w-56
-object-contain
-"
-          />
-        </div>
-
-        {/* Mobile Contact */}
-<div
+      <div
   className="
-    mt-4
     flex
-    flex-col
-    items-center
-    gap-2
-    sm:hidden
+    items-start
+    justify-between
+    pt-8
+    sm:justify-start
+    lg:pt-8
   "
 >
-  <a
-    href="tel:+918107331011"
+  {/* Logo */}
+  <img
+    src={logo}
+    alt="Yatrivio"
     className="
-      flex
-      items-center
-      gap-2
-      text-xs
-      font-medium
-      tracking-wide
-      text-white/75
-      transition-colors
-      duration-300
-      hover:text-white
+      w-32
+      object-contain
+      sm:w-32
+      md:w-40
+      lg:w-56
     "
-  >
-    <FaPhone
-      size={11}
-      className="text-[#d6ff14]"
-    />
-    <span>+91 8107331011</span>
-  </a>
+  />
 
-  <a
-    href="mailto:info.yatrivio@gmail.com"
+  {/* Mobile Contact */}
+  <div
     className="
       flex
-      items-center
+      flex-col
+      items-end
       gap-2
-      text-xs
-      font-medium
-      tracking-wide
-      text-white/75
-      transition-colors
-      duration-300
-      hover:text-white
+      pt-1
+      sm:hidden
     "
   >
-    <FaEnvelope
-      size={12}
-      className="text-[#d6ff14]"
-    />
-    <span>info.yatrivio@gmail.com</span>
-  </a>
+    {/* Phone */}
+    <a
+      href="tel:+918107331011"
+      className="
+        flex
+        items-center
+        gap-2
+        text-[11px]
+        font-medium
+        tracking-wide
+        text-white/75
+      "
+    >
+      <FaPhone
+        size={10}
+        className="text-[#d6ff14]"
+      />
+      <span>+91 8107331011</span>
+    </a>
+
+    {/* Email */}
+    <a
+      href="mailto:yatrivio@gmail.com"
+      className="
+        flex
+        items-center
+        gap-2
+        text-[11px]
+        font-medium
+        tracking-wide
+        text-white/75
+      "
+    >
+      <FaEnvelope
+        size={11}
+        className="text-[#d6ff14]"
+      />
+      <span>yatrivio@gmail.com</span>
+    </a>
+  </div>
 </div>
+
+
 
         {/* Hero */}
         <div
@@ -233,7 +241,7 @@ md:text-lg
 leading-relaxed
   "
           >
-            Your Journey to the World's Seventh Paradise Begins Soon
+            Your Journey to the World's Seventh Paradise Begins Here
           </h2>
           {/* Paragraph */}
           <p
@@ -245,10 +253,10 @@ leading-relaxed
   text-white/65
   "
           >
-            Discover handcrafted luxury journeys through breathtaking mountains,
-            pristine forests, crystal-clear lakes, hidden waterfalls, and
-            extraordinary destinations designed exclusively for travelers
-            seeking unforgettable experiences.
+Discover handcrafted luxury journeys through breathtaking mountains, pristine forests, crystal-clear lakes,
+ stunning beaches, hidden waterfalls, and extraordinary destinations designed exclusively for travelers seeking 
+ unforgettable experiences.
+
           </p>
          {/* Notify Me */}
 <div className="mt-6">
