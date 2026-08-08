@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@theme {
+  --font-heading: "Satoshi", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+  --font-display: "Italiana", serif;
+}
